@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Anki Card Creator</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Anki Card Creator Settings</h2>
+  <label>OpenAI API Key:</label><br>
+  <input type="text" id="apiKey" placeholder="Enter OpenAI API Key"><br><br>
+  <button id="saveBtn">Save</button>
+
+  <script src="popup.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Set Deck Names</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h3>Set Deck Names</h3>
+  <label for="mainDeck">Main Deck Name:</label>
+  <input type="text" id="mainDeck" placeholder="Enter Main Deck Name" />
+
+  <label for="subDeck">Sub Deck Name (optional):</label>
+  <input type="text" id="subDeck" placeholder="Enter Sub Deck Name" />
+
+  <button id="saveDeckNames">Save</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
